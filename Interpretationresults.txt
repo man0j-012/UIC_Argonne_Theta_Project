@@ -1,0 +1,28 @@
+Interpreting the Results
+1. Increase in Identified Failed Jobs with Hardware Errors
+
+Direct Correlation: Initially, 8,134 unique failed jobs were identified as having associated hardware errors via COBALT_JOBID.
+
+Time-Based Correlation: An additional 19,373 unique failed jobs were found to have hardware errors occurring during their execution time.
+
+Total Unique Failed Jobs with Hardware Errors: Considering both methods, a total of 27,507 unique failed jobs (8,134 + 19,373) have associated hardware errors.
+
+2. Common Hardware Errors
+
+Memory-Related Errors Dominate:
+
+IMC1 MCA Error and IMC0 MCA Error are the most frequent errors in both direct and time-based correlations.
+These errors are related to the Integrated Memory Controller (IMC) and Machine Check Architecture (MCA), indicating memory hardware issues.
+Additional Errors Identified in Time-Based Correlation:
+
+Denali Core Correctable Error appears prominently in the time-based correlation but not in the direct correlation.
+This suggests that some hardware errors impacting jobs may not have been directly linked via COBALT_JOBID but occurred during job execution.
+3. Significance of Findings
+
+Substantial Number of Failed Jobs Associated with Hardware Errors:
+
+Out of the total number of failed jobs (36,293 as per earlier data), approximately 75.8% (27,507 / 36,293) have associated hardware errors when combining both methods.
+Impact of Hardware Errors on Job Failures:
+
+The high prevalence of hardware errors in failed jobs suggests a strong correlation between hardware issues and job failures.
+Memory-related errors, in particular, seem to be a significant factor.
