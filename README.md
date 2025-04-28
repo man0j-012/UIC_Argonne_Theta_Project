@@ -15,7 +15,7 @@ The project focuses on the THETA HPC System (https://www.alcf.anl.gov/alcf-resou
 1. Direct Correlation
 2. Time-Based Correlation
 3. Spatial Correlation
-4. 4. Efficient Time-Based Correlation with Interval Trees - Interval Trees were implemented to optimize the time-based correlation process, reducing the time complexity of finding overlapping job intervals from O(N) to O(log N) for each hardware error event (where N is the number of job intervals). This optimization significantly improves the efficiency of the analysis, especially for large datasets.
+4. Efficient Time-Based Correlation with Interval Trees - Interval Trees were implemented to optimize the time-based correlation process, reducing the time complexity of finding overlapping job intervals from O(N) to O(log N) for each hardware error event (where N is the number of job intervals). This optimization significantly improves the efficiency of the analysis, especially for large datasets.
 
 ## Potential Impact
 1. The correlations identified in this study can be used to develop predictive-maintenance strategies.
@@ -29,7 +29,7 @@ The project showcases my skills in:
 1. HPC Systems: Understanding HPC architectures and the DragonFly network topology.
 2. Data Analysis: Proficiency in processing and correlating large datasets (91,000+ job logs, 136,000+ hardware errors).
 3. Algorithm Design: Implementation of efficient algorithms, including Interval Trees for O(log N) time complexity.
-4. Problem-Solving: Developing a methodology to address a critical issue in HPC: minimizing downtime through predictive maintenance.
+4. Problem-Solving: Developing a methodology to address a critical issue in HPC, minimizing downtime through predictive maintenance.
 
 
 ##  Quick Start
