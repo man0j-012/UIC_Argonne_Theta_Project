@@ -76,7 +76,7 @@ UIC_Argonne_Theta_Project/
 
 ## 📊 Sample Output
 
-![Sample Correlation Heatmap](figures/failure_to_error_ratio_heatmap.png)
+![Sample Correlation Heatmap](figures/Hourly_Hardware_Errors.jpeg)
 
 *See `figures/` for all generated plots.*
 
