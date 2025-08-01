@@ -1,4 +1,4 @@
-# UIC Argonne Project --- High Performance Computing --- MS Research Project( 6 - Month - Project)
+# UIC Argonne Project --- High Performance Computing --- MS Research Project( 8 - Month - Project)
 
 The project focuses on the THETA HPC System (https://www.alcf.anl.gov/alcf-resources/theta), which served the Argonne National Lab for 10 years. I have my gratitude for this System. The study defines correlating HPC job logs with hardware-error events on Argonne's Theta supercomputer to enable predictive maintenance and improve system reliability.
 
